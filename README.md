@@ -1,3 +1,5 @@
+Markdown
+
 # 🏗️ Monad Bridge DApp
 
 A cross-chain ETH bridge built using **Hardhat, Solidity, Pyth Oracle, and a Relayer Service**. This project enables users to transfer ETH between **Ethereum Sepolia, Arbitrum Sepolia, and Base Sepolia** testnets with the help of an automated relayer.
@@ -40,15 +42,14 @@ npm install
 Create a .env file in the root directory:
 
 PRIVATE_KEY=your_wallet_private_key
-ETH_SEPOLIA_RPC=https://sepolia.infura.io/v3/your_project_id
-ARB_SEPOLIA_RPC=https://arb-sepolia.alchemy.com/v2/your_project_id
-BASE_SEPOLIA_RPC=https://base-sepolia.infura.io/v3/your_project_id
+ETH_SEPOLIA_RPC=[https://sepolia.infura.io/v3/your_project_id](https://sepolia.infura.io/v3/your_project_id)
+ARB_SEPOLIA_RPC=[https://arb-sepolia.alchemy.com/v2/your_project_id](https://arb-sepolia.alchemy.com/v2/your_project_id)
+BASE_SEPOLIA_RPC=[https://base-sepolia.infura.io/v3/your_project_id](https://base-sepolia.infura.io/v3/your_project_id)
 MONAD_RPC=https://monad-rpc-url
 PYTH_ORACLE_ETHEREUM_SEPOLIA=0xYourEthereumSepoliaOracleAddress
 PYTH_ORACLE_ARBITRUM_SEPOLIA=0xYourArbitrumSepoliaOracleAddress
 PYTH_ORACLE_BASE_SEPOLIA=0xYourBaseSepoliaOracleAddress
 PYTH_ORACLE_MONAD_TESTNET=0xYourMonadTestnetOracleAddress
-
 4️⃣ Deploy Smart Contract
 Bash
 
@@ -72,6 +73,7 @@ Click "Bridge ETH" to send the deposit transaction.
 The relayer detects the deposit event and processes withdrawal on the destination chain.
 Withdraw ETH
 The relayer automatically processes withdrawals after confirming the deposit.
+
 🔍 Architecture
 1️⃣ Smart Contract (Solidity)
 Handles deposits and withdrawals
