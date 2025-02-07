@@ -1,4 +1,3 @@
-```markdown
 # 🏗️ Monad Bridge DApp
 
 A cross-chain ETH bridge built using **Hardhat, Solidity, Pyth Oracle, and a Relayer Service**. This project enables users to transfer ETH between **Ethereum Sepolia, Arbitrum Sepolia, and Base Sepolia** testnets with the help of an automated relayer.
@@ -12,8 +11,8 @@ A cross-chain ETH bridge built using **Hardhat, Solidity, Pyth Oracle, and a Rel
 - **Next.js Frontend for User Interaction**
 
 ## 📂 Project Structure
-```
 
+```markdown
 monad-bridge
 ├── contracts # Solidity smart contracts
 ├── scripts # Hardhat deployment scripts
@@ -22,8 +21,7 @@ monad-bridge
 ├── hardhat.config.js # Hardhat configuration
 ├── relayer.js # Relayer event listener
 └── README.md # Project documentation
-
-````plaintext
+```
 
 ## 🛠️ Installation & Setup
 
@@ -32,7 +30,7 @@ monad-bridge
 ```sh
 git clone https://github.com/bossonormal215/monad-dapp-test
 cd monad-bridge
-````
+```
 
 ### 2️⃣ Install Dependencies
 
