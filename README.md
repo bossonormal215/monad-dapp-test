@@ -1,5 +1,3 @@
-I'll provide you with the complete content for your README.md file in a single block that you can copy and paste directly into your project's README.md file. This version will include all sections and proper formatting for GitHub.
-
 ```markdown
 # 🏗️ Monad Bridge DApp
 
