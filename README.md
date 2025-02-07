@@ -1,4 +1,4 @@
-# 🏗️ Monad Bridge DApp
+# 🏗️ Monad DApp
 
 A cross-chain ETH bridge built using **Hardhat, Solidity, Pyth Oracle, and a Relayer Service**. This project enables users to transfer ETH between **Ethereum Sepolia, Arbitrum Sepolia, and Base Sepolia** testnets with the help of an automated relayer.
 
